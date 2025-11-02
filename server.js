@@ -17,7 +17,7 @@ const app = express();
 
 // Security middleware
 app.use(cors({
-  origin: "https://wanderscape.netlify.app",
+  origin: "https://wonderescape-frontend.vercel.app",
   credentials: true,
 }));
 
